@@ -1,0 +1,21 @@
+//
+//  NewsApp.pch
+//  NPlantsNews
+//
+//  Created by 于　超 on 2015/04/17.
+//  Copyright (c) 2015年 bravesoft. All rights reserved.
+//
+
+#ifndef NPlantsNews_NewsApp_pch
+#define NPlantsNews_NewsApp_pch
+
+#define      NEWS_API           @"http://160.16.121.201/api/news/list"           // ニュース API
+#define      TOP_API            @"http://160.16.121.201/api/news/top"            // トップ API
+#define      COLUMN_API         @"http://160.16.121.201/api/column/list"         // コラム API
+#define      MAIL_API           @"http://160.16.121.201/api/mail/list"           // メール API
+#define      SOKUHOU_API        @"http://160.16.121.201/api/sokuhou/list"        // 速報 API
+#define      SEARCH_API         @"http://160.16.121.201/api/news/search"         // 検索 API
+#define      TOKEN_API          @"http://160.16.121.201/api/push"                // device_token
+
+
+#endif
